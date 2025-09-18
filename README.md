@@ -44,11 +44,6 @@ graph TD
     E --> F[SDD_Tasklist_Builder.md]
     F --> G[任务列表]
     
-    style A fill:#e1f5fe
-    style G fill:#e8f5e8
-    style B fill:#fff3e0
-    style D fill:#fff3e0
-    style F fill:#fff3e0
 ```
 
 ### 理论基础
@@ -91,6 +86,64 @@ graph TD
 - 支持Markdown的文本编辑器
 - AI对话平台(如ChatGPT、Claude等)
 - 基本的软件开发知识
+
+### 📖 使用方法
+
+本项目的核心使用方法是将不同Builder的内容复制粘贴到AI IDE的Agent系统提示词中。以下是详细的操作步骤：
+
+#### 🖥️ 界面展示
+
+**智能体管理界面**
+![Trae AI IDE智能体列表界面](./images/trae-agents-list.svg)
+
+**智能体配置界面**
+![SDD_PRD_Builder智能体配置界面](./images/sdd-prd-builder-config.svg)
+
+#### 🔧 在Trae AI IDE中配置智能体
+
+1. **进入智能体管理界面**
+   - 在Trae AI IDE中点击"智能体"标签页
+   - 点击右上角绿色的"+ 创建"按钮
+
+2. **选择对应的Builder文件**
+   - 根据需要选择相应的.md文件：
+     - `SDD_PRD_Builder.md` - 产品需求文档构建代理
+     - `SDD_SPEC_Builder.md` - 技术规格文档构建代理  
+     - `SDD_Tasklist_Builder.md` - 任务列表构建代理
+
+3. **配置智能体基本信息**
+   - 在"名称"字段输入智能体名称（如：SDD_PRD_Builder）
+   - 选择合适的图标（如图中的紫色文档图标）
+   - 字符限制：15/20（名称长度限制）
+
+4. **设置系统提示词**
+   - 打开对应的.md文件，复制完整内容
+   - 在"提示词"文本框中粘贴内容
+   - 注意字符限制：4618/10000（如图所示）
+   - 确保提示词完整且格式正确
+
+5. **保存并使用**
+   - 点击保存按钮完成配置
+   - 返回智能体列表，可看到新创建的智能体
+   - 点击智能体卡片开始对话，输入需求即可获得结构化输出
+
+#### 💡 配置示例
+
+以SDD_PRD_Builder为例：
+
+```
+名称: SDD_PRD_Builder
+图标: 📋 (紫色文档图标)
+提示词: # SDD_PRD_Builder - 产品需求文档构建提示词 (优化版)
+
+**版本**: v0.2
+[复制SDD_PRD_Builder.md的完整内容，约4618字符]
+```
+
+**配置完成后的效果**：
+- 智能体列表中显示为带有紫色图标的"SDD_PRD_Builder"卡片
+- 点击后可直接开始PRD构建对话
+- 支持复杂需求的结构化分析和文档生成
 
 ### 基础使用流程
 
@@ -199,7 +252,7 @@ PRD文档 → SDD_SPEC_Builder.md → 技术规格
 ## 🔄 版本信息
 
 - **当前版本**: v1.0
-- **发布日期**: 2024年1月
+- **发布日期**: 2025年9月
 - **状态**: 稳定版本
 - **维护者**: Coldplay-now
 

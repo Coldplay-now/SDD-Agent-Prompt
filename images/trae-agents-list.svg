@@ -1,0 +1,49 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="400" height="300" fill="#1a1a1a"/>
+  
+  <!-- 顶部标题栏 -->
+  <rect width="400" height="40" fill="#2a2a2a"/>
+  <text x="20" y="25" fill="#ffffff" font-family="Arial, sans-serif" font-size="14" font-weight="bold">TRAE</text>
+  <circle cx="370" cy="20" r="8" fill="#666"/>
+  <circle cx="350" cy="20" r="8" fill="#666"/>
+  
+  <!-- 导航栏 -->
+  <rect y="40" width="400" height="35" fill="#333"/>
+  <text x="20" y="60" fill="#888" font-family="Arial, sans-serif" font-size="12">← 返回对话</text>
+  <text x="120" y="60" fill="#fff" font-family="Arial, sans-serif" font-size="12" font-weight="bold">智能体</text>
+  <text x="180" y="60" fill="#888" font-family="Arial, sans-serif" font-size="12">MCP</text>
+  <text x="220" y="60" fill="#888" font-family="Arial, sans-serif" font-size="12">上下文</text>
+  <text x="270" y="60" fill="#888" font-family="Arial, sans-serif" font-size="12">规则</text>
+  <text x="310" y="60" fill="#888" font-family="Arial, sans-serif" font-size="12">模型</text>
+  
+  <!-- 智能体标题和创建按钮 -->
+  <text x="20" y="100" fill="#fff" font-family="Arial, sans-serif" font-size="16" font-weight="bold">智能体</text>
+  <circle cx="25" cy="105" r="8" fill="#666"/>
+  <rect x="320" y="85" width="60" height="25" rx="12" fill="#4CAF50"/>
+  <text x="340" y="100" fill="#fff" font-family="Arial, sans-serif" font-size="12">+ 创建</text>
+  
+  <!-- 自定义智能体标题 -->
+  <text x="20" y="130" fill="#ccc" font-family="Arial, sans-serif" font-size="14">自定义智能体</text>
+  
+  <!-- SDD_Tasklist_Builder -->
+  <rect x="20" y="145" width="360" height="35" rx="5" fill="#2a2a2a" stroke="#444" stroke-width="1"/>
+  <rect x="25" y="150" width="25" height="25" rx="3" fill="#4CAF50"/>
+  <text x="32" y="165" fill="#fff" font-family="Arial, sans-serif" font-size="12">📋</text>
+  <text x="60" y="165" fill="#fff" font-family="Arial, sans-serif" font-size="14">SDD_Tasklist_Builder</text>
+  <circle cx="360" cy="162" r="8" fill="#666"/>
+  
+  <!-- SDD_SPEC_Builder -->
+  <rect x="20" y="185" width="360" height="35" rx="5" fill="#2a2a2a" stroke="#444" stroke-width="1"/>
+  <rect x="25" y="190" width="25" height="25" rx="3" fill="#FF9800"/>
+  <text x="32" y="205" fill="#fff" font-family="Arial, sans-serif" font-size="12">🔧</text>
+  <text x="60" y="205" fill="#fff" font-family="Arial, sans-serif" font-size="14">SDD_SPEC_Builder</text>
+  <circle cx="360" cy="202" r="8" fill="#666"/>
+  
+  <!-- SDD_PRD_Builder -->
+  <rect x="20" y="225" width="360" height="35" rx="5" fill="#2a2a2a" stroke="#444" stroke-width="1"/>
+  <rect x="25" y="230" width="25" height="25" rx="3" fill="#9C27B0"/>
+  <text x="32" y="245" fill="#fff" font-family="Arial, sans-serif" font-size="12">📋</text>
+  <text x="60" y="245" fill="#fff" font-family="Arial, sans-serif" font-size="14">SDD_PRD_Builder</text>
+  <circle cx="360" cy="242" r="8" fill="#666"/>
+</svg>

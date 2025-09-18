@@ -18,6 +18,10 @@
 !README.md
 !LICENSE
 
+# 取消忽略images目录及其内容
+!images/
+!images/*
+
 # 确保 .gitignore 本身被包含
 !.gitignore
 
