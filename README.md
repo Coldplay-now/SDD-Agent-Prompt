@@ -4,12 +4,12 @@
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/status-stable-brightgreen.svg)]()
 
-> 🚀 **专业的软件开发代理(SDD Agent)系统提示词集合**  
+> 🚀 **专业的软件开发Agent(SDD Agent)系统提示词集合**  
 > 通过四个专业化的AI代理，实现从需求分析到任务分解的完整软件开发流程自动化
 
 ## 📋 项目概述
 
-本项目提供了一套完整的软件开发代理(Software Development Agent)系统提示词，包含：
+本项目提供了一套完整的软件需求和设计的Agent(Software Development Agent)系统提示词，包含：
 
 - **3个核心Builder工具**：实现需求→PRD→设计→任务的渐进式转化流程
 - **1篇理论分析文章**：深入探讨SDD开发范式的理论基础
@@ -64,6 +64,17 @@ graph TD
 - **输入**: 澄清后的需求描述
 - **输出**: 标准化PRD文档
 - **特色功能**: 自动需求分类、优先级评估、验收标准定义
+
+#### 💬 PRD交互示例
+以下是SDD_PRD_Builder的实际交互示例，展示了如何通过智能澄清引导用户完善需求：
+
+![PRD交互示例](./images/prd-interaction-example.svg)
+
+**交互特点**：
+- 🎯 **智能需求识别**: 自动识别需求类型（探索构思类型）
+- 🔍 **关键问题澄清**: 聚焦核心问题（目标用户群体）
+- 📋 **结构化选项**: 提供清晰的选择项帮助用户决策
+- 🚀 **渐进式引导**: 逐步收集完整的需求信息
 
 ### ⚙️ SDD_SPEC_Builder.md
 **技术规格文档构建代理**
