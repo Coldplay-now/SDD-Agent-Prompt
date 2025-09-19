@@ -1,6 +1,6 @@
 # SDD Agent System Prompts
 
-[![Version](https://img.shields.io/badge/version-v1.0-blue.svg)](https://github.com/Coldplay-now/3-System-Prompts-for-SDD-Agent)
+[![Version](https://img.shields.io/badge/version-v1.0-blue.svg)](https://github.com/Coldplay-now/SDD-Agent-Prompt)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/status-stable-brightgreen.svg)]()
 
@@ -14,7 +14,14 @@
 - **4个核心SDD Agent**：实现需求→PRD→评估→设计→任务的完整开发流程
 - **1篇理论分析文章**：深入探讨SDD开发范式的理论基础
 
-通过专业化的AI Agent协同工作，实现软件开发全流程的管理， 降低SDD的需求噪音和设计噪音。
+开发者通过与四个AI Agent协同工作，实现软件开发全流程的PRD管理， 降低SPEC的需求噪音和设计噪音。
+
+### 🖥️ 界面预览
+
+**四个核心SDD Agent界面**
+![SDD Agent智能体管理界面](./images/20250919-133607.png)
+
+*界面展示了完整的SDD Agent工作流：从PRD构建、评估、到SPEC设计和任务规划，四个专业化AI Agent协同工作，为软件开发提供端到端的智能化支持。*
 
 ### 🎯 项目目标
 
@@ -175,11 +182,11 @@ graph TD
 
 1. **克隆项目**
    ```bash
-   git clone https://github.com/Coldplay-now/Trae_4agents.git
-   cd Trae_4agents
+   git clone https://github.com/Coldplay-now/SDD-Agent-Prompt.git
+   cd SDD-Agent-Prompt
    ```
 
-2. **选择合适的 Agent**
+2. **选择Agent**
    - 直接构建PRD：使用 `SDD_PRD_Builder.md`
    - 技术规格设计：使用 `SDD_SPEC_Builder.md`
    - 任务分解：使用 `SDD_Tasklist_Builder.md`
@@ -270,7 +277,7 @@ PRD文档 → SDD_SPEC_Builder.md → 技术规格
 
 - **项目维护者**: Coldplay-now
 - **GitHub**: [https://github.com/Coldplay-now](https://github.com/Coldplay-now)
-- **项目地址**: [https://github.com/Coldplay-now/3-System-Prompts-for-SDD-Agent](https://github.com/Coldplay-now/3-System-Prompts-for-SDD-Agent)
+- **项目地址**: [https://github.com/Coldplay-now/SDD-Agent-Prompt](https://github.com/Coldplay-now/SDD-Agent-Prompt)
 
 ## 🔄 版本信息
 
@@ -295,4 +302,4 @@ PRD文档 → SDD_SPEC_Builder.md → 技术规格
 
 ⭐ 如果这个项目对你有帮助，请给我们一个星标！
 
-💬 有问题或建议？欢迎提交 [Issue](https://github.com/Coldplay-now/3-System-Prompts-for-SDD-Agent/issues)！
+💬 有问题或建议？欢迎提交 [Issue](https://github.com/Coldplay-now/SDD-Agent-Prompt/issues)！
