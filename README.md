@@ -5,13 +5,13 @@
 [![Status](https://img.shields.io/badge/status-stable-brightgreen.svg)]()
 
 > 🚀 **专业的软件开发Agent(SDD Agent)系统提示词集合**  
-> 通过三个AI Agent，实现加速需求分析到任务分解的效率，通过有效的用户引导，可以大幅降低SDD开发过程中PRD/SPEC/Tasklist的语义噪音，提升LLM生成代码的质量。
+> 通过四个AI Agent，实现加速需求分析到任务分解的效率，通过有效的用户引导，可以大幅降低SDD开发过程中PRD/SPEC/Tasklist的语义噪音，提升LLM生成代码的质量。
 
 ## 📋 项目概述
 
 本项目提供了一套完整的软件需求和设计的Agent(Software Development Agent)系统提示词，包含：
 
-- **3个核心Builder工具**：实现需求→PRD→设计→任务的渐进式转化流程
+- **4个核心SDD Agent**：实现需求→PRD→评估→设计→任务的完整开发流程
 - **1篇理论分析文章**：深入探讨SDD开发范式的理论基础
 
 通过专业化的AI Agent协同工作，实现软件开发全流程的管理， 降低SDD的需求噪音和设计噪音。
@@ -28,7 +28,7 @@
 - 🧠 **智能需求处理** - 自动识别需求噪音，补全缺失信息
 - 📊 **结构化文档** - 生成标准化的PRD和技术规格
 - 🎯 **精准任务分解** - 智能拆分复杂项目为可执行任务
-- 🔄 **协同工作流** - 三个 Agent无缝协作，确保输出质量
+- 🔄 **协同工作流** - 四个 Agent无缝协作，确保输出质量
 - 📈 **质量保障** - 多层验证机制，确保文档准确性
 - 🛠️ **即插即用** - 开箱即用的提示词模板
 
@@ -175,8 +175,8 @@ graph TD
 
 1. **克隆项目**
    ```bash
-   git clone https://github.com/Coldplay-now/3-System-Prompts-for-SDD-Agent.git
-   cd 3-System-Prompts-for-SDD-Agent
+   git clone https://github.com/Coldplay-now/Trae_4agents.git
+   cd Trae_4agents
    ```
 
 2. **选择合适的 Agent**
