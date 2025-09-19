@@ -1,9 +1,10 @@
 # SDD Agent System Prompts - 只发布核心文件
-# 只保留以下四个核心文件：
+# 只保留以下五个核心文件：
 # - SDD_Gaps_noise.md
 # - SDD_PRD_Builder.md  
 # - SDD_SPEC_Builder.md
 # - SDD_Tasklist_Builder.md
+# - SDD_PRD_Evaluator.md
 # - README.md
 # - LICENSE
 
@@ -15,6 +16,7 @@
 !SDD_PRD_Builder.md
 !SDD_SPEC_Builder.md
 !SDD_Tasklist_Builder.md
+!SDD_PRD_Evaluator.md
 !README.md
 !LICENSE
 

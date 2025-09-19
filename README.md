@@ -39,6 +39,9 @@
 graph TD
     A[原始需求] --> B[SDD_PRD_Builder.md]
     B --> C[产品需求文档]
+    C --> H[SDD_PRD_Evaluator.md]
+    H --> I[评估报告 & 改进建议]
+    I --> C
     C --> D[SDD_SPEC_Builder.md]
     D --> E[技术规格文档]
     E --> F[SDD_Tasklist_Builder.md]
@@ -90,6 +93,13 @@ graph TD
 - **输出**: 详细任务列表
 - **特色功能**: 智能任务分解、依赖关系分析、工作量评估
 
+### 🔍 SDD_PRD_Evaluator.md
+**产品需求文档评估 Agent**
+- **核心职责**: 对PRD文档进行全面质量评估和改进建议
+- **输入**: PRD文档内容
+- **输出**: 评估报告、问题清单、改进建议
+- **特色功能**: 四维度评分(完整性、清晰性、可行性、一致性)、问题分类、质量等级评定
+
 ## 🚀 快速开始
 
 ### 前置要求
@@ -121,6 +131,7 @@ graph TD
      - `SDD_PRD_Builder.md` - 产品需求文档构建 Agent
      - `SDD_SPEC_Builder.md` - 技术规格文档构建 Agent  
      - `SDD_Tasklist_Builder.md` - 任务列表构建 Agent
+     - `SDD_PRD_Evaluator.md` - 产品需求文档评估 Agent
 
 3. **配置智能体基本信息**
    - 在"名称"字段输入智能体名称（如：SDD_PRD_Builder）
@@ -190,7 +201,7 @@ graph TD
 ### 完整工作流示例
 
 ```
-用户需求 → SDD_Gaps_noise.md → 澄清需求
+用户需求 → 
          ↓
 澄清需求 → SDD_PRD_Builder.md → PRD文档
          ↓
@@ -269,6 +280,7 @@ PRD文档 → SDD_SPEC_Builder.md → 技术规格
 - **维护者**: Coldplay-now
 
 ### 更新记录
+- **v1.1** (2025-09): 新增PRD评估Agent，包含四个核心SDD Agent
 - **v1.0** (2024-01): 初始版本发布，包含三个核心SDD Agent
 
 ## 🚀 未来规划
